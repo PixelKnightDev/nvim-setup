@@ -6,19 +6,19 @@
 -- olivercederborg/poimandres.nvim
 -- oxfist/night-owl.nvim
 --[[return {
-   "tjdevries/colorbuddy.nvim",
+   "EdenEast/nightfox.nvim",
    priority = 1000,
    config = function()
-      vim.cmd("colorscheme colorbuddy")
+      vim.cmd("colorscheme nightfox")
    end,
 }]]
 return {
 
-   "tjdevries/colorbuddy.nvim",
+   "bluz71/vim-moonfly-colors",
    priority = 1000,
    config = function()
       -- Set your desired colorscheme (replace <your_colorscheme_name> with your colorscheme)
-      vim.cmd("colorscheme colorbuddy")
+      vim.cmd("colorscheme moonfly")
       -- all this to make the background transparent
       -- epic
       -- Transparent background for common elements
